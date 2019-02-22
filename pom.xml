@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>rpf.study</groupId>
+    <artifactId>netty-websocket</artifactId>
+    <version>1.0-SNAPSHOT</version>
+<dependencies>
+    <!--netty的依赖集合，都整合在一个依赖里面了-->
+    <dependency>
+        <groupId>io.netty</groupId>
+        <artifactId>netty-all</artifactId>
+        <version>4.1.6.Final</version>
+    </dependency>
+    <!--这里使用jackson反序列字节码-->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.9.7</version>
+    </dependency>
+    <!--加入log4j 便于深入学习整合运行过程的一些细节-->
+    <dependency>
+        <groupId>log4j</groupId>
+        <artifactId>log4j</artifactId>
+        <version>1.2.17</version>
+    </dependency>
+</dependencies>
+
+</project>
